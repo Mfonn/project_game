@@ -1,0 +1,59 @@
+body {
+  background-image: linear-gradient(to bottom right, #CE8DB9, #78CEBD, #F27D85);
+  min-height: 100vh;
+  text-align: center;
+}
+
+.banner {
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #04364E;
+  margin: 25px 0 50px 0;
+}
+
+.message {
+  font-size: 40px;
+  text-align: left;
+  text-transform: capitalize;
+  background-image: linear-gradient(to right, #FECEE9, #FDAFDB, #E585EA);
+  width: 75%;
+  height: 150px;
+  padding: 20px 20px;
+  margin: 20px auto 40px auto;
+}
+
+#text {
+  font-size: 30px;
+  padding: 40px 20px;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn {
+  margin: 40px 10px;
+  padding: 10px 15px;
+  font-size: 25px;
+  color: #412234;
+  background-color: #D5345F;
+}
+
+.btn:hover {
+  color: #412234;
+  background-color: #D5345F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
