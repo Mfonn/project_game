@@ -14,7 +14,7 @@ function startGame() {
     myObstacle = new component(10, 200, "#2F1847", 300, 120); //for the obstacle component
     myScore = new component("20px", "Consolas", "black", 190, 40, "text"); //for the score
     mySound = new sound("gameover.mp3");//for the game over sound
-    myMusic = new sound("realhappy.mp3");
+    myMusic = new sound("gametheme.mp3");
     myMusic.play(); //for the background music
     
     myGameArea.start();
