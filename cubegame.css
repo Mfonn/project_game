@@ -2,6 +2,38 @@ body {
 background-color: #652B78;
 }
 canvas {
-    border:1px solid #d3d3d3;
+    border:1px solid #8B3BA5;
     background-color: #807bc0;
 }
+.button {
+    background-color: #9E1946;
+    font-size: 30px;
+    padding: 32px 16px;
+    border-radius: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.button:after {
+    content: "";
+    background: #9E1946;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
