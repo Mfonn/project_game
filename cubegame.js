@@ -11,8 +11,7 @@ var myMusic;
 
 function startGame() {
     myGamePiece = new component(30, 30,"#C30C09", 10, 120);
-    myObstacle = new component(10, 200, "#2F1847", 300, 120); //for the obstacle component
-    myScore = new component("20px", "Consolas", "black", 190, 40, "text"); //for the score
+    myScore = new component("20px", "Consolas", "black", 200, 40, "text"); //for the score
     mySound = new sound("gameover.mp3");//for the game over sound
     myMusic = new sound("gametheme.mp3");
     myMusic.play(); //for the background music
@@ -23,8 +22,8 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-      this.canvas.width = 320;
-      this.canvas.height = 400;
+      this.canvas.width = 350;
+      this.canvas.height = 300;
       this.context = this.canvas.getContext("2d");
       document.body.insertBefore(this.canvas, document.body.childNodes[0]);
       this.frameNo = 0; //for multiple obstacles
@@ -61,10 +60,6 @@ var myGameArea = {
 //for the square the speed and for it to change with the click of the buttons
 function component(width, height, color, x, y, type) {
     this.type = type; //for the score
-    if (type == "image") {
-        this.image = new Image();
-        this.image.src = color;
-      } //for the emoji
     this.width = width;
     this.height = height;
     this.speedX = 0;
