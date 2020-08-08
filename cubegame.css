@@ -37,3 +37,7 @@ canvas {
     opacity: 1;
     transition: 0s
   }
+
+.button1 {
+margin-left: 50px;
+}
