@@ -1,0 +1,8 @@
+.leFadeOutLeft span { animation-name: leFadeOutLeft }
+@keyframes leFadeOutLeft {
+    from { opacity: 1 }
+    to {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+}
