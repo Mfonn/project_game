@@ -12,7 +12,7 @@ var myMusic;
 function startGame() {
     myGamePiece = new component(30, 30,"#C30C09", 10, 120);
     myObstacle = new component(10, 200, "#2F1847", 300, 120); //for the obstacle component
-    myScore = new component("20px", "Consolas", "black", 280, 40, "text"); //for the score
+    myScore = new component("20px", "Consolas", "black", 190, 40, "text"); //for the score
     mySound = new sound("gameover.mp3");//for the game over sound
     myMusic = new sound("realhappy.mp3");
     myMusic.play(); //for the background music
