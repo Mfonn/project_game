@@ -30,6 +30,11 @@ canvas {
     opacity: 0;
     transition: all 0.8s
   }
+
+ .button:active {
+   box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
   
   .button:active:after {
     padding: 0;
