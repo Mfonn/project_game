@@ -6,7 +6,9 @@ canvas {
     background-color: #807bc0;
 }
 p {
-    font-size: 3px;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 150px;
 }
 .button {
     background-color: #9E1946;
