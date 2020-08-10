@@ -5,6 +5,9 @@ canvas {
     border:1px solid #8B3BA5;
     background-color: #807bc0;
 }
+p {
+    font-size: 3px;
+}
 .button {
     background-color: #9E1946;
     font-size: 30px;
